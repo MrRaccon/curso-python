@@ -5,24 +5,31 @@
 # imprimir_mensaje()
 # imprimir_mensaje()
 # imprimir_mensaje()
-def impresion_datos(opcion):
-     print("hola")
-     print("hola como estas")
-     print(opcion)
-     print('adios')
 
 
-opcion = input("Elige una opcion(1,2,3): ")
-
-if opcion == '1':
-    impresion_datos("Eligiste la opcion 1")
-elif opcion == '2':
-    impresion_datos("Eligiste la opcion 2")
-elif opcion == '3':
-    impresion_datos("Eligiste la opcion 3")
-else:
-    print("eliga la opcion correcta")
+# def impresion_datos(opcion):
+#      print("hola")
+#      print("hola como estas")
+#      print(opcion)
+#      print('adios')
 
 
+# opcion = input("Elige una opcion(1,2,3): ")
 
+# if opcion == '1':
+#     impresion_datos("Eligiste la opcion 1")
+# elif opcion == '2':
+#     impresion_datos("Eligiste la opcion 2")
+# elif opcion == '3':
+#     impresion_datos("Eligiste la opcion 3")
+# else:
+#     print("eliga la opcion correcta")
+
+def suma(a,b):
+    print("Se suman dos números")
+    resultado = a + b
+    return resultado
+
+resultado_suma = suma(1,4)
+print(resultado_suma)
 
